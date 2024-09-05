@@ -67,9 +67,9 @@ public class ControladorLogin {
         return new ModelAndView("nuevo-usuario", model);
     }
 
-    @RequestMapping(path = "/home", method = RequestMethod.GET)
+    @RequestMapping(path = "/index", method = RequestMethod.GET)
     public ModelAndView irAHome() {
-        return new ModelAndView("home");
+        return new ModelAndView("index");
     }
 
     @RequestMapping(path = "/", method = RequestMethod.GET)
